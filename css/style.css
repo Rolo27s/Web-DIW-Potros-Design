@@ -167,7 +167,11 @@ a:hover {
 /* --------------------------------------------- */
 main {
     max-width: 1250px;
-    margin: 100px 50px;
+    margin: 30px 50px;
+}
+
+h1 {
+    text-align: center;
 }
 
 /* --------------------------------------------- */
@@ -204,6 +208,13 @@ main {
     grid-column-start: 1;
     grid-column-end: 2;
 }
+
+.next-mach_socialmedia a { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}  
 
 .next-mach_visiting img {
     width: 72px;
@@ -384,6 +395,11 @@ footer {
     padding: 1rem;
 }
 
+.footer-container-2 a img {
+    width: 90px;
+    height: 90px;
+}
+
 .footer-container-1 li a, .footer-container-2 li a {
     color: #FFFFFF;
     font-weight: 200;
@@ -394,8 +410,16 @@ footer {
     font-size: .8rem;
 }
 
-.footer-container-1 li:first-child {
+.footer-container-1-CLUB {
     border-bottom: 3px solid white;
+}
+
+.footer-container-1-FEFA {
+    border-bottom: 0px solid white;
+}
+
+.footer-container-1-MAS {
+    border-bottom: 0px solid white;
 }
 
 .footer-container-2 {
@@ -455,7 +479,7 @@ footer {
     }
 
     main {
-        margin: 40px 20px;
+        margin: 30px 20px;
         width: 90%;
     }
 
@@ -501,7 +525,7 @@ footer {
     /* --------------------------------------------- */
     .next-mach {
         grid-template-columns: 1fr;
-                justify-items: start;
+        justify-items: center;
     }  
 
     .next-mach > * {
@@ -580,6 +604,10 @@ footer {
         gap: 0;
     }
 
+    .footer-container-2 a img {
+        width: 64px;
+        height: 64px;
+    }
 
 }
 
